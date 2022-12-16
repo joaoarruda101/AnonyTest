@@ -1,0 +1,91 @@
+https://www.adservice.co.jp/ !! OS JAPONES ESTÃO DE OLHO NA GENTE !!!!
+
+
+gabriella.ns.cloudeflare.com = 67.227.226.240
+Scanning 989 services on lb01.parklogic.com (67.227.226.240) in 1 host
+
+Error 404 : Not Found (Ao acessar lb01.parklogic.com)
+Nota : Mesmo erro ao tentar acessar 
+damian.ns.cloudflare.com
+gabriella.ns.cloudeflare.com muitas vezes
+
+damian.ns.cloudflare.com = 162.159.44.50
+Scanning 989 services on damian.ns.cloudflare.com (162.159.44.50)
+
+lb01.parklogic.com = 69.16.230.40
+EXECUTEI : nmap -v -A -sV 69.16.230.40
+
+A BC.Games tem google ADS : ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-7Q8ZMQJCT2&cid=1858634651.1671153599&gtm=2oebu0&aip=1&z=1…
+
+9080/tcp  open     ssl/glrpc?
+| ssl-cert: Subject: commonName=lb01.parklogic.com/organizationName=lb01.parklogic.com/countryName=XX
+| Issuer: commonName=lb01.parklogic.com/organizationName=lb01.parklogic.com/countryName=XX
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-04-03T21:35:44
+| Not valid after:  2027-04-01T21:35:44
+| MD5:   4d282f0beaace28904c8b60df109c5be
+|_SHA-1: 0645d672e7b69f2116ac3c13faff8e4fb90ce617
+|_ssl-date: TLS randomness does not represent time
+9081/tcp  open     tcpwrapped
+9090/tcp  open     ssl/zeus-admin?
+| fingerprint-strings:
+|   GenericLines:
+|     HTTP/1.1 400 Bad Request
+|     Date: Fri, 16 Dec 2022 02:23:03 GMT
+|     Connection: close
+|     Content-Type: text/html
+|     <html><head><title>Error 400 Bad Request
+|     </title></head><body bgcolor="#ffffff"><h2>Error 400 Bad Request
+|     </h2><p><i>Powered by <a href="http://errors.zeus.com/">Zeus Technology</a></i></p></body></html>
+|   GetRequest:
+|     HTTP/1.1 302 Moved Temporarily
+|     Date: Fri, 16 Dec 2022 02:23:05 GMT
+|     Connection: close
+|     Location: /apps/zxtm/login.cgi
+|     Content-Security-Policy: default-src 'none'; form-action 'none'; frame-ancestors 'self'
+|     X-XSS-Protection: 1; mode=block
+|     Content-Type: text/html
+|     X-Frame-Origins: SAMEORIGIN
+|     Content-Length: 218
+|     <html><head><title>Error 302 Moved Temporarily
+|     </title></head><body bgcolor="#ffffff"><h2>Error 302 Moved Temporarily
+|     </h2><p><i>Powered by <a href="http://errors.zeus.com/">Zeus Technology</a></i></p></body></html>
+|   HTTPOptions:
+|     HTTP/1.1 302 Moved Temporarily
+|     Date: Fri, 16 Dec 2022 02:23:08 GMT
+|     Connection: close
+|     Location: /apps/zxtm/login.cgi
+|     Content-Security-Policy: default-src 'none'; form-action 'none'; frame-ancestors 'self'
+|     X-XSS-Protection: 1; mode=block
+|     Content-Type: text/html
+|     X-Frame-Origins: SAMEORIGIN
+|     Content-Length: 218
+|     <html><head><title>Error 302 Moved Temporarily
+|     </title></head><body bgcolor="#ffffff"><h2>Error 302 Moved Temporarily
+|     </h2><p><i>Powered by <a href="http://errors.zeus.com/">Zeus Technology</a></i></p></body></html>
+|   RTSPRequest:
+|     HTTP/1.1 302 Moved Temporarily
+|     Date: Fri, 16 Dec 2022 02:23:10 GMT
+|     Connection: close
+|     Location: /apps/zxtm/login.cgi
+|     Content-Security-Policy: default-src 'none'; form-action 'none'; frame-ancestors 'self'
+|     X-XSS-Protection: 1; mode=block
+|     Content-Type: text/html
+|     X-Frame-Origins: SAMEORIGIN
+|     Content-Length: 218
+|     <html><head><title>Error 302 Moved Temporarily
+|     </title></head><body bgcolor="#ffffff"><h2>Error 302 Moved Temporarily
+|_    </h2><p><i>Powered by <a href="http://errors.zeus.com/">Zeus Technology</a></i></p></body></html>
+| ssl-cert: Subject: commonName=*.parklogic.com
+| Subject Alternative Name: DNS:*.parklogic.com, DNS:parklogic.com
+| Issuer: commonName=Sectigo RSA Domain Validation Secure Server CA/organizationName=Sectigo Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2021-12-03T00:00:00
+| Not valid after:  2023-01-03T23:59:59
+| MD5:   ae93314b292aed7bf074933f052ae2af
+|_SHA-1: b363f78a46c7d1e21ecacbf71673c93775d3960c
+|_ssl-date: TLS randomness does not represent time
